@@ -6,6 +6,7 @@
   "author": "Jeff Andrews",
   "license": "MIT",
   "devDependencies": {
+    "ava": "^0.17.0",
     "eslint": "^3.13.1",
     "eslint-config-carpages": "^0.2.0"
   },
@@ -16,6 +17,9 @@
     "is-grunt": "^0.2.0",
     "is-gulp": "^0.2.0",
     "meow": "^3.7.0"
+  },
+  "scripts": {
+    "test": "ava"
   },
   "bin": {
     "list-tasks": "./cli/index.js"
