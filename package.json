@@ -1,0 +1,16 @@
+{
+  "name": "list-build-tasks",
+  "version": "0.1.0",
+  "description": "A module to list which build tasks are available in the current directory.",
+  "main": "./lib/index.js",
+  "author": "Jeff Andrews",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "meow": "^3.7.0",
+    "shelljs": "^0.7.6"
+  },
+  "bin": {
+    "list-tasks": "./cli/index.js"
+  }
+}
