@@ -1,6 +1,6 @@
 {
   "name": "list-build-tasks",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A module to list which build tasks are available in the current directory.",
   "main": "./lib/index.js",
   "author": "Jeff Andrews",
