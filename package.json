@@ -13,9 +13,9 @@
   "dependencies": {
     "chalk": "^1.1.3",
     "grepit": "^1.0.0",
-    "has-task-runner": "^0.2.0",
-    "is-grunt": "^0.2.0",
-    "is-gulp": "^0.2.0",
+    "has-task-runner": "^0.3.2",
+    "is-grunt": "^0.3.0",
+    "is-gulp": "^0.3.0",
     "meow": "^3.7.0"
   },
   "scripts": {
