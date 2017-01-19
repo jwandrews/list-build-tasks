@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 'use strict';
 
-const listBuildTasks = require( '../lib' );
 const meow = require( 'meow' );
+
+const command = require( './lib/listTasks' );
 
 const cli = meow( `
   Usage
@@ -33,9 +34,9 @@ const cli = meow( `
 });
 
 if ( cli.flags.gulp ) {
-  listBuildTasks( 'gulp', { path: process.cwd() });
+  command( 'gulp', { path: process.cwd() });
 } else if ( cli.flags.grunt ) {
-  listBuildTasks( 'grunt', { path: process.cwd() });
+  command( 'grunt', { path: process.cwd() });
 } else {
-  listBuildTasks( null, { path: process.cwd() });
+  command( null, { path: process.cwd() });
 }
