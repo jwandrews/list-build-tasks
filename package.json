@@ -7,7 +7,7 @@
   "license": "MIT",
   "devDependencies": {
     "ava": "^2.2.0",
-    "eslint": "^6.0.0",
+    "eslint": "^6.6.0",
     "eslint-config-carpages": "^3.1.1"
   },
   "dependencies": {
