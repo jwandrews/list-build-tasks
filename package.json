@@ -8,7 +8,7 @@
   "devDependencies": {
     "ava": "^3.0.0",
     "eslint": "^6.0.0",
-    "eslint-config-carpages": "^4.0.1"
+    "eslint-config-carpages": "^5.0.0"
   },
   "dependencies": {
     "chalk": "^3.0.0",
