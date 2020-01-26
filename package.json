@@ -6,7 +6,7 @@
   "author": "Jeff Andrews",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^2.2.0",
+    "ava": "^3.0.0",
     "eslint": "^6.0.0",
     "eslint-config-carpages": "^4.0.1"
   },
