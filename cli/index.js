@@ -1,11 +1,12 @@
 #!/usr/bin/env node
-'use strict';
+"use strict";
 
-const meow = require( 'meow' );
+const meow = require("meow");
 
-const command = require( './lib/listTasks' );
+const command = require("./lib/list-tasks");
 
-const cli = meow( `
+const cli = meow(
+  `
   Usage
     $ list-tasks
 
@@ -26,17 +27,19 @@ const cli = meow( `
     • build
     • dev
     • sass
-`, {
-  alias: {
-    g: 'gulp',
-    G: 'grunt'
+`,
+  {
+    alias: {
+      g: "gulp",
+      G: "grunt"
+    }
   }
-});
+);
 
-if ( cli.flags.gulp ) {
-  command( 'gulp', { path: process.cwd() });
-} else if ( cli.flags.grunt ) {
-  command( 'grunt', { path: process.cwd() });
+if (cli.flags.gulp) {
+  command("gulp", { path: process.cwd() });
+} else if (cli.flags.grunt) {
+  command("grunt", { path: process.cwd() });
 } else {
-  command( null, { path: process.cwd() });
+  command(null, { path: process.cwd() });
 }
