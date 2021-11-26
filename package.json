@@ -11,7 +11,7 @@
     "eslint-config-carpages": "^6.0.0"
   },
   "dependencies": {
-    "chalk": "^4.0.0",
+    "chalk": "^5.0.0",
     "grepit": "^1.0.0",
     "has-task-runner": "^0.4.5",
     "is-grunt": "^0.4.1",
