@@ -16,7 +16,7 @@
     "has-task-runner": "^0.4.5",
     "is-grunt": "^0.4.1",
     "is-gulp": "^0.4.1",
-    "meow": "^13.2.0"
+    "meow": "^14.0.0"
   },
   "scripts": {
     "test": "ava"
